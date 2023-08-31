@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_Tracking", "API_Tracking\API_Tracking.csproj", "{1311F28B-5D3B-4F7F-93BA-79225AB9E7AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracking_Client", "Tracking_Client\Tracking_Client.csproj", "{26E36C3E-2846-432C-839B-632DF8060C69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1311F28B-5D3B-4F7F-93BA-79225AB9E7AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1311F28B-5D3B-4F7F-93BA-79225AB9E7AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1311F28B-5D3B-4F7F-93BA-79225AB9E7AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26E36C3E-2846-432C-839B-632DF8060C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26E36C3E-2846-432C-839B-632DF8060C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26E36C3E-2846-432C-839B-632DF8060C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26E36C3E-2846-432C-839B-632DF8060C69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

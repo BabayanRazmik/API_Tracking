@@ -1,8 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace API_Tracking.Models
+namespace Tracking_Client
 {
-    public class Issue
+    internal class IssueDto
     {
         public int Id { get; set; }
         [Required]
@@ -10,11 +15,10 @@ namespace API_Tracking.Models
         [Required]
         public string Description { get; set; }
         public Priority Priority { get; set; }
-        public IssueType IssueType{ get; set; }
+        public IssueType IssueType { get; set; }
         public DateTime Created { get; set; }
         public DateTime? Completed { get; set; }
     }
-
     public enum Priority
     {
         Low,
@@ -23,7 +27,7 @@ namespace API_Tracking.Models
     }
     public enum IssueType
     {
-        Feature, 
+        Feature,
         Bug,
         Documentation
     }
